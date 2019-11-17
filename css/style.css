@@ -1,0 +1,12 @@
+@media (max-width:700px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+    #sec2{
+        text-align: left;
+    }
+
+}
+@media (min-width:782px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+
+    #sec2{
+        text-align: center;
+    }
+}

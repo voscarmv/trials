@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+    @media (max-width:700px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+    #sec2{
+        text-align: left;
+    }
+    #header{
+      display: flex;
+    }
+
+}
+    </style>
   </head>
 
   <body>
@@ -21,7 +32,7 @@
     <section id="sec2">Section 2</section>
     <section id="sec3">Section 3</section>
 <form id="form" action="https://www.freecodecamp.com/email-submit">
-<input id="email" type="email"  placeholder="Your e-mail here"></input>
+<input id="email" name="email" type="email"  placeholder="Your e-mail here"></input>
 <input id="submit" type="submit" value="ok"></input>
 </form>
 
